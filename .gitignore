@@ -1,0 +1,14 @@
+# Foundry
+cache/
+out/
+broadcast/
+artifacts/
+
+# Dependencies
+lib/
+
+# System
+.DS_Store
+
+# Env
+.env
