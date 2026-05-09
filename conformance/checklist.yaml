@@ -1,0 +1,40 @@
+proof_of_operation:
+  semantic_authority_action:
+    required: true
+
+  one_operation_one_event:
+    required: true
+
+  deterministic_ordering:
+    required: true
+
+  parent_operation_id:
+    required: true
+
+  execution_context:
+    required: true
+
+  operation_index:
+    required: true
+
+  operation_count:
+    required: true
+
+  heuristic_unpacking:
+    forbidden: true
+
+  tracing_dependence:
+    forbidden: true
+
+  retrofit_safe:
+    required: true
+
+  protocol_logic_changes:
+    forbidden: true
+
+  deterministic_equivalence:
+    required: true
+
+  equivalence_formula:
+    - target
+    - payloadHash
