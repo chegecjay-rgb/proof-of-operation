@@ -1,0 +1,7 @@
+# executionContext Classification
+
+0 = CALL
+1 = DELEGATECALL
+2 = SCHEDULED
+3 = BATCH_ROOT
+4 = INTERNAL_EXECUTOR
