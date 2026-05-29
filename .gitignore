@@ -12,3 +12,4 @@ lib/
 
 # Env
 .env
+.gas-snapshot
